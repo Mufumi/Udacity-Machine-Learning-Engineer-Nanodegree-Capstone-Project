@@ -29,7 +29,7 @@ This model is then compared to an Azure AutoML run.
 ## Architecture 
 
 <p align="center">
-  <img width="200" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/791194962aecf323cb3cc273e1dd11830a29bba5/Images/Screenshot%20from%202021-09-08%2019-15-37.png
+  <img width="200" src="https://github.com/Mufumi/Udacity-Capstone-Project/Images/Screenshot from 2021-09-08 19-15-37.png 
 " alt="Capstone Project architecture">
 </p>
 
