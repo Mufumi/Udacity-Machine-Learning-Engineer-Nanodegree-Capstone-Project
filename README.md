@@ -21,12 +21,17 @@ Notebook for creating playlist :
   <img width="200" src="https://github.com/Mufumi/Udacity-Optimizing-a-ML-Pipeline-in-Azure-Tutorial/blob/main/Azure%20Ml.jpg" alt="Azure Ml">
 </p>
 
-# Optimizing an ML Pipeline in Azure
-
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
+
+## Architecture 
+
+<p align="center">
+  <img width="200" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/791194962aecf323cb3cc273e1dd11830a29bba5/Images/Screenshot%20from%202021-09-08%2019-15-37.png
+" alt="Capstone Project architecture">
+</p>
 
 ## Summary
 This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign.
