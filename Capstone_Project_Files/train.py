@@ -8,12 +8,24 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
+import requests
+import io
+
 
 url_path='https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Spotify_playlist/spotify_playlist.csv'
 
-track_df = TabularDatasetFactory.from_delimited_files(path=url_path)
+    
+# Downloading the csv file from your GitHub account
 
-track_df = pd.read_csv(csv_path)
+download = requests.get(url_path).content
+
+# Reading the downloaded content and turning it into a pandas dataframe
+
+track_df = pd.read_csv(io.StringIO(download.decode('utf-8')))
+
+
+#track_df = TabularDatasetFactory.from_delimited_files(path=url_path)
+#track_df = pd.read_csv(csv_path)
 
 x=track_df.iloc[:,:-1]
 y=track_df.iloc[:,-1:]
