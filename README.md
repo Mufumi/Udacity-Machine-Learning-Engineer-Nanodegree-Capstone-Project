@@ -32,8 +32,6 @@ This model is then compared to an Azure AutoML run.
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Architecture.png" alt="Capstone Project architecture">
 </p>
 
-Images/Screenshot from 2021-09-08 19-15-37.png
-
 ## Summary
 This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign.
 
