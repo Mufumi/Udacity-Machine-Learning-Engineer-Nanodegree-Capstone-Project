@@ -8,8 +8,6 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
-import requests
-import io
 
 url_path='https://raw.githubusercontent.com/Mufumi/Udacity-Capstone-Project/main/Spotify_playlist/spotify_playlist.csv'
 
