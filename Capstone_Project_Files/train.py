@@ -11,10 +11,8 @@ from azureml.data.dataset_factory import TabularDatasetFactory
 import requests
 import io
 
-
-url_path='https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Spotify_playlist/spotify_playlist.csv'
-
-    
+url_path='https://raw.githubusercontent.com/Mufumi/Udacity-Capstone-Project/main/Spotify_playlist/spotify_playlist.csv'
+  
 # Downloading the csv file from your GitHub account
 
 download = requests.get(url_path).content
@@ -22,10 +20,6 @@ download = requests.get(url_path).content
 # Reading the downloaded content and turning it into a pandas dataframe
 
 track_df = pd.read_csv(io.StringIO(download.decode('utf-8')))
-
-
-#track_df = TabularDatasetFactory.from_delimited_files(path=url_path)
-#track_df = pd.read_csv(csv_path)
 
 x=track_df.iloc[:,:-1]
 y=track_df.iloc[:,-1:]
