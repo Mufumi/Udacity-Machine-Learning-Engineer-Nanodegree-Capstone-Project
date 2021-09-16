@@ -9,13 +9,9 @@ import pandas as pd
 from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
 
-# TODO: Create TabularDataset using TabularDatasetFactory
-# Data is located at:
-# "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
-#url_path ='https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv'
+url_path='https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Spotify_playlist/spotify_playlist.csv'
 
-#ds = TabularDatasetFactory.from_delimited_files(path=url_path)
-csv_path ='Documents/Mufumi 2021/Udacity/Azure ML Capstone Project/Spotify_playlist/spotify_playlist.csv'
+track_df = TabularDatasetFactory.from_delimited_files(path=url_path)
 
 track_df = pd.read_csv(csv_path)
 
