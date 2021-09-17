@@ -1,4 +1,4 @@
-# Udacity-Capstone-Project
+# Udacity Machine Learning with Azure Capstone Project
 Solving a problem of interest using Azure machine learning
 
 Include overview
