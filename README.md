@@ -30,7 +30,6 @@ This model is then compared to an Azure AutoML run.
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Architecture.png" alt="Capstone Project architecture">
 </p>
 
-https://youtu.be/UqRCffzliro
 
 ## Summary
 This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign.
@@ -53,6 +52,10 @@ Using AutoML, the model of choice was the XGBoost classifier which is an optimiz
 
 Training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.9180 after 1 minutes 44 seconds
 The Auto ML model produced an accuracy of 0.91563 within 29 seconds. The HyperDirve parameter optimizer performed with a higher accuracy but required more time and demanded a lot more iterations for tuning the hyperparameters.
+
+## Screen-cast
+
+https://youtu.be/UqRCffzliro
 
 
 ## Future work
