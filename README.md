@@ -4,18 +4,16 @@ Solving a problem of interest using Azure machine learning
 Include overview
 
 Creating track list classifier
-Reference to Brice Vergnou project [here!](https://github.com/Brice-Vergnou/spotify_recommendation) for idea
+Reference to Brice Vergnou project [here](https://github.com/Brice-Vergnou/spotify_recommendation) for idea
 
-
-
-Spotify WEb API for finding track characteristics: https://developer.spotify.com/console/get-audio-features-several-tracks/?ids=
+Spotify WEb API for finding track characteristics can be found [here] (https://developer.spotify.com/console/get-audio-features-several-tracks/?ids=)
 
 Must have a Spotify Account
 Use developer properties
 Create OAuth (authentication)
-Unfortunately Spotify API has maz request for 100 tracks
+Unfortunately Spotify API has max request for 100 tracks
 
-Notebook for creating playlist : https://github.com/Mufumi/Udacity-Capstone-Project/blob/e9d1df4f76dd3e546f114077ff47e8b3ebab0dc6/Spotify%20Dataset%20Wrangler.ipynb
+Notebook for creating playlist can be found [here](https://github.com/Mufumi/Udacity-Capstone-Project/blob/e9d1df4f76dd3e546f114077ff47e8b3ebab0dc6/Spotify%20Dataset%20Wrangler.ipynb)
 
 <p align="center">
   <img width="200" src="https://github.com/Mufumi/Udacity-Optimizing-a-ML-Pipeline-in-Azure-Tutorial/blob/main/Azure%20Ml.jpg" alt="Azure Ml">
