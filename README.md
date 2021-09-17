@@ -6,7 +6,7 @@ Include overview
 Creating track list classifier
 Reference to Brice Vergnou project [here](https://github.com/Brice-Vergnou/spotify_recommendation) for idea
 
-Spotify WEb API for finding track characteristics can be found [here] (https://developer.spotify.com/console/get-audio-features-several-tracks/?ids=)
+Spotify WEb API for finding track characteristics can be found [here](https://developer.spotify.com/console/get-audio-features-several-tracks/?ids=)
 
 Must have a Spotify Account
 Use developer properties
