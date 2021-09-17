@@ -55,8 +55,7 @@ The Auto ML model produced an accuracy of 0.91563 within 29 seconds. The HyperDi
 
 ## Screen-cast
 
-https://youtu.be/UqRCffzliro
-
+[![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/UqRCffzliro)
 
 ## Future work
 For the training model, the selcted model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process. Additionally, the training data could have benefited from being encoded using the One Hot Encoder library instead of manually performing the cleaning.
