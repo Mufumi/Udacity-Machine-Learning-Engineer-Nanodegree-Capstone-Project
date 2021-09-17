@@ -5,7 +5,7 @@ Include overview
 
 Creating track list classifier
 Reference to Brice Vergnou project 
-https://github.com/Brice-Vergnou/spotify_recommendation 
+<https://github.com/Brice-Vergnou/spotify_recommendation> 
 
 <p> 
   <src="https://github.com/Brice-Vergnou/spotify_recommendation" alt="here"> 
