@@ -60,7 +60,7 @@ Using AutoML, the model of choice was the Voting Ensemble classifier which is a 
 The deployed model was the one computed in the Hyperdrive experiment with endpoints set to _active_ as illustrated
 
 <p align="center">
-  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/HD_Run_Widget.png" alt="HD Run Details">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
 </p>
 
 ## Model comparison
