@@ -1,5 +1,4 @@
 # Udacity Machine Learning with Azure Capstone Project
-Solving a problem of interest using Azure machine learning
 
 <p align="center">
   <img width="200" src="https://github.com/Mufumi/Udacity-Optimizing-a-ML-Pipeline-in-Azure-Tutorial/blob/main/Azure%20Ml.jpg" alt="Azure Ml">
