@@ -15,17 +15,17 @@ The dataset is obtained from wrangling data from my Spotify playlist with the co
 
 The [Spotify Web API](https://developer.spotify.com/console/get-audio-features-several-tracks/?ids=) can be used to find track characteristics. The features of the dataset include:
 
-*danceability
-*energy
-*key
-*loudness
-*mode
-*speechiness
-*acousticness
-*instrumentalness
-*liveness
-*valence
-*tempo
+* danceability
+* energy
+* key
+* loudness
+* mode
+* speechiness
+* acousticness
+* instrumentalness
+* liveness
+* valence
+* tempo
 
 To  generate this playlist, you must have a Spotify Account and use the Web API developer options. For the _Get Audio features_ you must authenticate your API request and obtain the OAuth token.
 
