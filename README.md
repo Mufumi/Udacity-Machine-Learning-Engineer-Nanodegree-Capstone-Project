@@ -62,7 +62,7 @@ The Auto ML model produced an accuracy of 0.91563 within 29 seconds. The HyperDi
 
 ## Screen-cast
 
-[![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/UqRCffzliro)
+[![Deploying a model using Azure Studio](deploy_model_using_python_sdk.png)](https://youtu.be/UqRCffzliro)
 
 ## Future work
 For the training model, the selcted model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process. Unfortunately Spotify API has max request for 100 tracks meaning the preliminary dataset has 200 entries which is not enough data for a machine learning model with high predictive confidence.
