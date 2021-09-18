@@ -32,19 +32,14 @@ To  generate this playlist, you must have a Spotify Account and use the Web API 
 Notebook for creating playlist can be found [here](https://github.com/Mufumi/Udacity-Capstone-Project/blob/e9d1df4f76dd3e546f114077ff47e8b3ebab0dc6/Spotify%20Dataset%20Wrangler.ipynb)
 
 ## Architecture 
-
+The architecture of the project can be seen here:
 <p align="center">
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Architecture.png" alt="Capstone Project architecture">
 </p>
 
-
-## Summary
-This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign.
-
-The best performing model was a Logistic Regression model with the hyperparameters obtained from Hyperdrive.
 ## Scikit-learn Pipeline
 
-The data is obtained from a csv file and converted to structured data using a dataframe. It was then cleaned and a OneHotEncoder technique from the sklearn library was implemented to label some features of the data. Once cleaned the data was split into a training set and test set, with the Logistic Regression model chosen as the classifier. The hyperparameters for this model were the Regularization Strength and Max iterations parameters, assisting in the convergence of the model. The best performance model had a regularization strength of 0.3711 and max iterations of 1000.
+The data is obtained from a csv file and converted to structured data using a dataframe. Because the data is regularized and featurized, there was no need to clean the data. The data was then split into a training set and test set, with the Logistic Regression model chosen as the classifier. The hyperparameters for this model were the Regularization Strength and Max iterations parameters, assisting in the convergence of the model. The best performance model had a regularization strength of 0.0.5247 and max iterations of 1000.
 
 **Parameter sampler and stopping policy chosen**
 
@@ -53,19 +48,21 @@ to ensure that the experiments run within specific threshold.
 
 ## AutoML
 
-Using AutoML, the model of choice was the XGBoost classifier which is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. For data transformation, AutoML used the SKLearn Sparse Normalizer
+Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output.
 
-## Pipeline comparison
+## Model comparison
 
-Training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.9180 after 1 minutes 44 seconds
-The Auto ML model produced an accuracy of 0.91563 within 29 seconds. The HyperDirve parameter optimizer performed with a higher accuracy but required more time and demanded a lot more iterations for tuning the hyperparameters.
+Training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.85 after 35 minutes 11 seconds
+The Auto ML model produced an accuracy of 0.845 within 29 seconds. The HyperDirve parameter optimizer performed with a higher accuracy but required more time and demanded a lot more iterations for tuning the hyperparameters.
 
 ## Screen-cast
 
 [![Deploying a model using Azure Studio](deploy_model_using_python_sdk.png)](https://youtu.be/UqRCffzliro)
 
 ## Future work
-For the training model, the selcted model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process. Unfortunately Spotify API has max request for 100 tracks meaning the preliminary dataset has 200 entries which is not enough data for a machine learning model with high predictive confidence.
+*For the training model, the selected model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process. The _max iter_ metric was only between 1 and 1000 and a more randomization of this hyperparameter would produce a more robust experiment. 
+
+*Unfortunately Spotify API has max request for 100 tracks meaning the preliminary dataset has 200 entries which is not enough data for a machine learning model with high predictive confidence.
 
 ## Proof of service clean up
 Delete method was used in code but will only occur once the script run is completed
