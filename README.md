@@ -41,7 +41,7 @@ The architecture of the project can be seen here:
 The data is obtained from a csv file and converted to structured data using a dataframe. Because the data is regularized and featurized, there was no need to clean the data. The data was then split into a training set and test set, with the Logistic Regression model chosen as the classifier. The hyperparameters for this model were the Regularization Strength and Max iterations parameters, assisting in the convergence of the model. The best performance model had a regularization strength of 0.0.5247 and max iterations of 1000 as illustrated.
 
 <p align="center">
-  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Architecture.png" alt="HD Run Details">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/HD_Run_Widget.png" alt="HD Run Details">
 </p>
 
 **Parameter sampler and stopping policy chosen**
@@ -52,6 +52,10 @@ to ensure that the experiments run within specific threshold.
 ## AutoML Experiment
 
 Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output.
+
+<p align="center">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/HD_Run_Widget.png" alt="HD Run Details">
+</p>
 
 ## Model comparison
 
