@@ -44,7 +44,7 @@ The architecture of the project can be seen here:
 
 ### Dependencies 
 
-(Link to Dependencies.yml file)
+The [dependencies file](https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Capstone_Project_Files/starter_file/conda_dependencies.yml) lists all packages that need to be installed before the hyperdrive experiment can be run.
 
 The data is obtained from a csv file and converted to structured data using a dataframe. Because the data is regularized and featurized, there was no need to clean the data. The data was then split into a training set and test set, with the Logistic Regression model chosen as the classifier. The hyperparameters for this model were the Regularization Strength and Max iterations parameters, assisting in the convergence of the model. The best performance model had a regularization strength of 0.5247 and max iterations of 1000 as illustrated.
 
@@ -62,7 +62,15 @@ to ensure that the experiments run within specific threshold.
 
 ### AutoML settings
 
-The AutoML experiment was set to timeout after _ minutes  with a compute instance using DS__
+The AutoML experiment was set to timeout after 30 minutes was initiated using the automl compute instance, using compute instance using DS3_v2 machine
+
+### AutoML configuration
+
+The AutoML model task was set to `classification`, with the `primary_metric` set to accuracy using the auto_ml_ds `training_data`. This experiment's `label_column_name` was set to the **liked** column 
+    primary_metric="accuracy",
+    training_data=auto_ml_ds,
+    label_column_name="liked",
+    n_cross_validations=8
 
 Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output.
 
