@@ -28,7 +28,11 @@ The [Spotify Web API](https://developer.spotify.com/console/get-audio-features-s
 
 To  generate this playlist, you must have a Spotify Account and use the Web API developer options. For the _Get Audio features_ you must authenticate your API request and obtain the OAuth token.
 
-This [Notebook](https://github.com/Mufumi/Udacity-Capstone-Project/blob/e9d1df4f76dd3e546f114077ff47e8b3ebab0dc6/Spotify%20Dataset%20Wrangler.ipynb) shows how creating dataset from you personal playlist can be made. 
+This [Notebook](https://github.com/Mufumi/Udacity-Capstone-Project/blob/e9d1df4f76dd3e546f114077ff47e8b3ebab0dc6/Spotify%20Dataset%20Wrangler.ipynb) shows how creating dataset from you personal playlist can be made.
+
+### Data access into Azure
+
+For importing the data, I used the `TabularDatasetFactory` class, importing data using the `from_delimited_files` method. The class contains methods to create a tabular dataset for Azure Machine Learning
 
 ## Architecture 
 The architecture of the project can be seen here:
