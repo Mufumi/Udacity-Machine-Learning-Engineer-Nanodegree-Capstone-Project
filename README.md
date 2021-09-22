@@ -66,11 +66,7 @@ The AutoML experiment was set to timeout after 30 minutes was initiated using th
 
 ### AutoML configuration
 
-The AutoML model task was set to `classification`, with the `primary_metric` set to accuracy using the auto_ml_ds `training_data`. This experiment's `label_column_name` was set to the **liked** column 
-    primary_metric="accuracy",
-    training_data=auto_ml_ds,
-    label_column_name="liked",
-    n_cross_validations=8
+The AutoML model task was set to `classification`, with the `primary_metric` set to accuracy using the auto_ml_ds `training_data`. This experiment's `label_column_name` was set to the **liked** column and had a default 8 `cross-validation` metric.
 
 Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output.
 
