@@ -62,7 +62,7 @@ to ensure that the experiments run within specific threshold.
 
 ### AutoML settings
 
-The AutoML experiment was set to timeout after 30 minutes was initiated using the automl compute instance, using compute instance using DS3_v2 machine
+The AutoML experiment was set to timeout after 30 minutes was initiated using the automl compute instance, using compute instance using DS3_v2 machine, which is a genral purpose machine that is ideal for generic AutoML runs.
 
 ### AutoML configuration
 
