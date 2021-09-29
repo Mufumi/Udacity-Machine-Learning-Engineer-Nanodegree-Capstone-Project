@@ -90,7 +90,8 @@ The Auto ML model produced an accuracy of 0.845 within 29 seconds. After changin
 [![Deploying a model using Azure Studio](deploy_model_using_python_sdk.png)](https://youtu.be/UqRCffzliro)
 
 ## Future work
-* For the training model, the selected model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process. The _max iter_ metric was only between 1 and 1000 and a more randomization of this hyperparameter would produce a more robust experiment. 
+* For the training model, the selected model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process.
+* Consider using `AUC_Weighted` as primary metric as it does not discriminate on training data
 
 * Unfortunately Spotify API has max request for 100 tracks meaning the preliminary dataset has 200 entries which is not enough data for a machine learning model with high predictive confidence.
 
