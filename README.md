@@ -74,7 +74,7 @@ Using AutoML, the model of choice was the Voting Ensemble classifier which is a 
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/AutoML_Run_Widget.png" alt="AML Run Details">
 </p>
 
-The deployed model was the one computed in the Hyperdrive experiment with endpoints set to _active_ as illustrated
+The deployed model was the one computed in the AutoML experiment with endpoints set to _active_ as illustrated
 
 <p align="center">
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
@@ -82,8 +82,8 @@ The deployed model was the one computed in the Hyperdrive experiment with endpoi
 
 ## Model comparison
 
-Training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.85 after 35 minutes 11 seconds
-The Auto ML model produced an accuracy of 0.845 within 29 seconds. The HyperDirve parameter optimizer performed with a higher accuracy but required more time and demanded a lot more iterations for tuning the hyperparameters.
+Initially, training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.85 after 35 minutes 11 seconds
+The Auto ML model produced an accuracy of 0.845 within 29 seconds. After changing the `max_iter` to sweep between 1 and 100, the Hyperdrive experiment's best run had an accuracy of 0.925 within 58 minutes and 26 seconds, whilst the AutoML run had an accuracy of 0.92 within 24 minutes. The HyperDirve parameter optimizer performed with a higher accuracy but required more time and demanded a lot more iterations for tuning the hyperparameters.
 
 ## Screen-cast
 
