@@ -97,3 +97,7 @@ The Auto ML model produced an accuracy of 0.845 within 29 seconds. After changin
 
 ## Proof of service clean up
 Delete method was used in code but will only occur once the script run is completed
+
+## Project Wiki
+
+The [project wiki](https://github.com/Mufumi/Udacity-Capstone-Project.wiki.git) has extra details of how I went about with the project.
