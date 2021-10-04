@@ -1,7 +1,0 @@
-#writefile conda_dependencies.yml
-dependencies:
-- python=3.6.2
-- scikit-learn
-- pandas
-- pip:
-  - azureml-defaults
