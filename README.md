@@ -87,7 +87,7 @@ The Auto ML model produced an accuracy of 0.845 within 29 seconds. After changin
 
 ## Screen-cast
 
-[![Deploying a model using Azure Studio](deploy_model_using_python_sdk.png)](https://youtu.be/UqRCffzliro)
+[![Deploying a model using Azure Studio](deploy_model_using_python_sdk.png)](https://youtu.be/480CUqkTDZU)
 
 ## Future work
 * For the training model, the selected model was a Logistic Regression model which performed well considering its accuracy. Alternative classification algorithms can also be considered especially those that require less time to process.
