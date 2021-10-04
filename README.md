@@ -44,7 +44,7 @@ The architecture of the project can be seen here:
 
 ### Dependencies 
 
-The [dependencies file](https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Capstone_Project_Files/starter_file/conda_dependencies.yml) lists all packages that need to be installed before the hyperdrive experiment can be run.
+The [dependencies file](https://github.com/Mufumi/Udacity-Capstone-Project/blob/7f8c5f539d401fb07d03516681ed10c294633bd3/Capstone_Project_Files/starter_file/conda_env_v_1_0_0.yml) lists all packages that need to be installed before the hyperdrive experiment can be run.
 
 The data is obtained from a csv file and converted to structured data using a dataframe. Because the data is regularized and featurized, there was no need to clean the data. The data was then split into a training set and test set, with the Logistic Regression model chosen as the classifier. The hyperparameters for this model were the Regularization Strength and Max iterations parameters, assisting in the convergence of the model. The best performance model had a regularization strength of 0.5247 and max iterations of 1000 as illustrated.
 
