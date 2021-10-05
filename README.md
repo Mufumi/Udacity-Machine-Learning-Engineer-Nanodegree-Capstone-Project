@@ -80,6 +80,14 @@ The deployed model was the one computed in the AutoML experiment with endpoints 
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
 </p>
 
+## Model Deployment
+
+Once the best model is obtained, we can proceed to register it in the workspace. For model deployment, we have to set up a environment that will host the model. A constant variable `CONDA_ENV_FILE_PATH`, has the path to packages invloved in the model build. We can download this file and use it to create an environment with the recquired packages and dependecies. Azure also generates a scoring file based on the inputs of the model. We can use this file as an input variable to the inference config.
+
+For this exercise, I deployed the model as a Azure Container Instance (ACI) service. Once the model is deployed as a service, a sample input test is conducted to ensure that the web service is operational.
+
+The 
+
 ## Model comparison
 
 Initially, training the model using a script and tuning the hyperparameters using HyperDrive, resulted in an accuracy of 0.85 after 35 minutes 11 seconds
