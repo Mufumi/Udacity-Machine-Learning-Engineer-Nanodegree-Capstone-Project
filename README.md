@@ -111,7 +111,9 @@ Once the best model is obtained, we can proceed to register it in the workspace.
 
 For this exercise, I deployed the model as a Azure Container Instance (ACI) service. Once the model is deployed as a service, a sample input test is conducted to ensure that the web service is operational.
 
-The 
+You provided an overview of the deployed model including the deployment method and location information. Good! However, you did not include instructions on how to query the endpoint - the steps taken to query the endpoint, including how to compose the request, with sample data, sample response and interpretation of the response. Remember that providing code snippets and screenshots are every important here. You could also talk about the inference configuration.
+
+
 
 ## Model comparison
 
