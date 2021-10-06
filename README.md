@@ -8,7 +8,7 @@
 
 This project is part of the Udacity Azure ML Nanodegree program. In this project, we deploy an Azure ML model using the Python SDK trained with a local training script. The model's objective is to predict the probability of a track being liked on my Spotify based on a playlist of liked and disliked tracks. This model is then compared to an Azure AutoML model.
 
-## Project Set Up and Installation
+## Project Set up and Installation
 
 For this project, the Microsoft Azure Machine Learning tool must be accesible within Azure. Once istalled the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/) can also be installed to assist the user create and manage Azure resources.
 
