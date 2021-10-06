@@ -122,7 +122,7 @@ You provided an overview of the deployed model including the deployment method a
 </p>
 
 <p align="center">
-  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Querying_the_endpoint.png" alt="Endpoint Query">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Querying_the_endpoint.png" alt="Endpoint Query">
 </p>
 
 ## Model comparison
