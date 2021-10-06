@@ -70,8 +70,14 @@ The random parameter sampler was chosen based on its conservative usage to compu
 to ensure that the experiments run within specific threshold. 
 
 
-Explain BanditPolicy(evaluation_interval=2,slack_factor=0.1)
+**Bandit Policy arguments**
 `slack_factor` is the ratio used to calculate the allowed distance from the best performing experiment run and the `evaluation_interval` is the frequency for applying the policy. For this experiment, the slack allowed for preceeding models was selected to be within 10% of the best model. The interval of the policy was set to reevaluating after 2 models. Both these choices were selected with resource optimization as a primary goal of the experiment.
+
+**Random parameter sampling arguments**
+
+_Regularization Strength(--C)_
+
+_Maximum iterations(--max_iter)_
 
 Explain RandomParameterSampling({'--C':uniform(0,1),'--max_iter':choice(range(1,1000))})
 
