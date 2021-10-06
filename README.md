@@ -113,7 +113,17 @@ For this exercise, I deployed the model as a Azure Container Instance (ACI) serv
 
 You provided an overview of the deployed model including the deployment method and location information. Good! However, you did not include instructions on how to query the endpoint - the steps taken to query the endpoint, including how to compose the request, with sample data, sample response and interpretation of the response. Remember that providing code snippets and screenshots are every important here. You could also talk about the inference configuration.
 
+<p align="center">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
+</p>
 
+<p align="center">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
+</p>
+
+<p align="center">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Azure-ML-Active-REST-endpoint.png" alt="Endpoint Active">
+</p>
 
 ## Model comparison
 
