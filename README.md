@@ -77,13 +77,15 @@ to ensure that the experiments run within specific threshold.
 
 _Regularization Strength(--C)_
 
+Regularization is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. For this experiment, the coefficients were scaled to be between 0 and 1, to simplify an understanding of the model.
+
 _Maximum iterations(--max_iter)_
 
-Explain RandomParameterSampling({'--C':uniform(0,1),'--max_iter':choice(range(1,1000))})
+This is the maximum number of iterations taken for the solvers to converge. Every chosen `max_iter` value is a random value between 1 and 1000. A higher value is expected to produce a higher primary scoring metric score. We do, however, have to find a conservative estimate of this value, explaining why we're iterating random values over this range.
 
 ### HyperDrive Settings
 
-Explain HyperDriveConfig(run_config=src,hyperparameter_sampling=param_sampling,policy=early_termination_policy,primary_metric_name='Accuracy',primary_metric_goal=PrimaryMetricGoal.MAXIMIZE,max_total_runs=200)
+Withe the parameter smapling and early termination policy set, we can configure a HyperDrive Run. This run's primary goal is to _maximize_ the primary metric is `Accuracy`. The configuration was also set to iterate of a maximum of 200 runs. Based on the constraints and application of the experiment, the user can choose the `max_runs` and `primary_metric_name` variables.
 
 ## AutoML Experiment
 
