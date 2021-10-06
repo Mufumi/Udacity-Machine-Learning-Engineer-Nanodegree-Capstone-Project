@@ -86,11 +86,18 @@ The AutoML experiment was set to timeout after 30 minutes was initiated using th
 
 The AutoML model task was set to `classification`, with the `primary_metric` set to accuracy using the auto_ml_ds `training_data`. This experiment's `label_column_name` was set to the **liked** column and had a default 8 `cross-validation` metric.
 
-Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output. The best run had an ID of `AutoML_19b2c7bc-4f1a-47b9-8e97-63d12892f11f_39`
+Using AutoML, the model of choice was the Voting Ensemble classifier which is a machine learning model that trains on an ensemble of numerous models and predicts an output (class) based on their highest probability of chosen class as the output. The best run had an ID illustrated below:
 
 <p align="center">
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/AutoML_Run_Widget.png" alt="AML Run Details">
 </p>
+
+The best run and best model can be illustrated as:
+
+<p align="center">
+  <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/Images/Auto_ML_best_run_best_model.png" alt="AML Run Details">
+</p>
+
 
 The deployed model was the one computed in the AutoML experiment with endpoints set to _active_ as illustrated
 
