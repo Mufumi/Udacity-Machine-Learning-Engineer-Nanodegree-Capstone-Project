@@ -46,12 +46,6 @@ The architecture of the project can be seen here:
 
 ## Hyperdrive Experiment
 
-### HyperDrive Settings
-
-Explain BanditPolicy(evaluation_interval=2,slack_factor=0.1)
-Explain RandomParameterSampling({'--C':uniform(0,1),'--max_iter':choice(range(1,1000))})
-Explain HyperDriveConfig(run_config=src,hyperparameter_sampling=param_sampling,policy=early_termination_policy,primary_metric_name='Accuracy',primary_metric_goal=PrimaryMetricGoal.MAXIMIZE,max_total_runs=200)
-
 ### Dependencies 
 
 The [dependencies file](https://github.com/Mufumi/Udacity-Capstone-Project/blob/a82dd586b9e25c3a9aa54b8906f0f342d8a99532/Capstone_Project_Files/starter_file/conda_dependencies.yml) lists all packages that need to be installed before the hyperdrive experiment can be run.
@@ -62,11 +56,17 @@ The data is obtained from a csv file and converted to structured data using a da
   <img width="600" src="https://github.com/Mufumi/Udacity-Capstone-Project/blob/main/HD_Run_Widget.png" alt="HD Run Details">
 </p>
 
-
 **Parameter sampler and stopping policy chosen**
 
 The random parameter sampler was chosen based on its conservative usage to computing resources. The early stopping policy chosen was the Bandit policy 
 to ensure that the experiments run within specific threshold. 
+
+Explain BanditPolicy(evaluation_interval=2,slack_factor=0.1)
+Explain RandomParameterSampling({'--C':uniform(0,1),'--max_iter':choice(range(1,1000))})
+
+### HyperDrive Settings
+
+Explain HyperDriveConfig(run_config=src,hyperparameter_sampling=param_sampling,policy=early_termination_policy,primary_metric_name='Accuracy',primary_metric_goal=PrimaryMetricGoal.MAXIMIZE,max_total_runs=200)
 
 ## AutoML Experiment
 
