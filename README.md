@@ -134,9 +134,6 @@ For this exercise, I deployed the model as a Azure Container Instance (ACI) serv
 
 A deployed service is created from a model, script, and associated files. The resulting web service is a load-balanced, HTTP endpoint with a REST API. You can send data to this API and receive the prediction returned by the model. Considering the simplicity of the model, only one CPU core with 1 GB RAM was allocated.
 
-**However, you did not include instructions on how to query the endpoint - the steps taken to query the endpoint, including how to compose the request, with sample data, sample response and interpretation of the response. Remember that providing code snippets and screenshots are every important here. You could also talk about the inference configuration.**
-
-
 Once created, the user can get the service details:
 
 <p align="center">
