@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project is part of the Udacity Azure ML Nanodegree program. In this project, we deploy an Azure ML model using the Python SDK trained with a local training script. The model's objective is to predict the probability of a track being liked on my Spotify based on a playlist of liked and disliked tracks. This model is then compared to an Azure AutoML model.
+This project is part of the Udacity Azure ML Nanodegree program. In this project, we deploy an Azure ML model using the Python SDK - trained with a local training script. The model's objective is to predict the probability of a track being liked on my Spotify based on a playlist of liked and disliked tracks. This model is then compared to an Azure AutoML model. All project steps are captured in a notebook that explains the process.
 
 ## Project Set up and Installation
 
